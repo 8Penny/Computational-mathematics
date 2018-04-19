@@ -1,6 +1,6 @@
 import numpy as np
-n=3
-a=0
+n = 34
+a=-10
 b=10
 #b=2*np.pi
 x = np.linspace(a, b,n+1)
@@ -53,9 +53,9 @@ print(MSE)
 #n=10
 #a=-3
 #b=3
-n = 3
-a = 0
-b = 10
+#n = 3
+#a = 0
+#b = 10
 
 x = np.linspace(a, b, n+1)
 
@@ -96,4 +96,4 @@ plt.grid(True)
 plt.show()
 
 MSE = np.sqrt(((yfun - ynew)**2).mean())
-print(MSE)
+print(MSE, "средняя квадратичная ошибка интерполяции")
